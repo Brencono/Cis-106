@@ -1,0 +1,7 @@
+cost_per_share = input("Enter how much each share cost")
+current_price = input("Enter current price")
+amt_stock = input("Enter how many stocks you own")
+dif_in_price = input("Enter how much the price changed")
+new_price = float(current_price) - float(dif_in_price)
+new_value = float(new_price) * float(amt_stock)
+print("Your value of your stock is now $" + str(new_value))

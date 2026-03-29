@@ -1,0 +1,5 @@
+stock_sym = input("Enter a stock symbol")
+num_shares = input("Enter how many shares")
+cost_per_share = input("Enter how much each share cost")
+cost_share = float(num_shares) * float(cost_per_share)
+print("Your investment in " + str(stock_sym) + " is $" + str(cost_share))
